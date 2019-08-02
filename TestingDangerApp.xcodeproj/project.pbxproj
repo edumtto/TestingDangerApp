@@ -14,6 +14,7 @@
 		735DFBE122E7E3C90002D695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735DFBDF22E7E3C90002D695 /* LaunchScreen.storyboard */; };
 		735DFBEC22E7E3C90002D695 /* TestingDangerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DFBEB22E7E3C90002D695 /* TestingDangerAppTests.swift */; };
 		735DFBF722E7E3C90002D695 /* TestingDangerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DFBF622E7E3C90002D695 /* TestingDangerAppUITests.swift */; };
+		73BC424622E7EF3800631D27 /* Stringify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC424522E7EF3800631D27 /* Stringify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		735DFBF222E7E3C90002D695 /* TestingDangerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingDangerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		735DFBF622E7E3C90002D695 /* TestingDangerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingDangerAppUITests.swift; sourceTree = "<group>"; };
 		735DFBF822E7E3C90002D695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BC424522E7EF3800631D27 /* Stringify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stringify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				735DFBDD22E7E3C90002D695 /* Assets.xcassets */,
 				735DFBDF22E7E3C90002D695 /* LaunchScreen.storyboard */,
 				735DFBE222E7E3C90002D695 /* Info.plist */,
+				73BC424522E7EF3800631D27 /* Stringify.swift */,
 			);
 			path = TestingDangerApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				735DFBD922E7E3C80002D695 /* ViewController.swift in Sources */,
+				73BC424622E7EF3800631D27 /* Stringify.swift in Sources */,
 				735DFBD722E7E3C80002D695 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
