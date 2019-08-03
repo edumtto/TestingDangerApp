@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    lazy var label: UILabel = {
+        let label = UILabel()
+        label.text = "bla bla bla"
+        return label
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .green
+        view.backgroundColor = .gray
         // Do any additional setup after loading the view.
     }
 
