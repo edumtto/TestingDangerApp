@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     lazy var label: UILabel = {
         let label = UILabel()
-        label.text = "bla bla bla"
+        label.text = "bla bla bla bla"
         return label
     }()
     
