@@ -16,7 +16,7 @@ fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 warn("PR is classed as Work in Progress") if github.pr_title.include? "[WIP]"
 
 # Fail if release notes are not updated
-release_notes_updated = git.modified_files.include? "release_notes.txt"
-fail "You forgot to update your release notes file" if !declared_trivial && !release_notes_updated
+release_notes_updated = git.modified_files.include? "CHANGELOG.md"
+fail "You forgot to update your changelog file" if !declared_trivial && !release_notes_updated
 
-swiftlint.lint_files
+swiftlint.lint_files inline_mode: true
