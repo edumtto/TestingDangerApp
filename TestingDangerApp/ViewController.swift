@@ -34,5 +34,4 @@ class ViewController: UIViewController {
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
     }
- 
 }
