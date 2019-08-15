@@ -15,7 +15,6 @@
 		735DFBEC22E7E3C90002D695 /* TestingDangerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DFBEB22E7E3C90002D695 /* TestingDangerAppTests.swift */; };
 		735DFBF722E7E3C90002D695 /* TestingDangerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DFBF622E7E3C90002D695 /* TestingDangerAppUITests.swift */; };
 		73BC424622E7EF3800631D27 /* Stringify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC424522E7EF3800631D27 /* Stringify.swift */; };
-		C92516BE8FEF184C1E0E0DFA /* Pods_TestingDangerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295439BDA6ADCDA01F57DF8E /* Pods_TestingDangerApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		295439BDA6ADCDA01F57DF8E /* Pods_TestingDangerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingDangerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6240F389E655726FCB7A977D /* Pods-TestingDangerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingDangerApp.release.xcconfig"; path = "Target Support Files/Pods-TestingDangerApp/Pods-TestingDangerApp.release.xcconfig"; sourceTree = "<group>"; };
 		694A7EE1EAE1333DEDD7CFBD /* Pods-TestingDangerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingDangerApp.debug.xcconfig"; path = "Target Support Files/Pods-TestingDangerApp/Pods-TestingDangerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		735DFBD322E7E3C80002D695 /* TestingDangerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingDangerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C92516BE8FEF184C1E0E0DFA /* Pods_TestingDangerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +95,6 @@
 				735DFBF522E7E3C90002D695 /* TestingDangerAppUITests */,
 				735DFBD422E7E3C80002D695 /* Products */,
 				6DAE9CE6286B5E4591A1E903 /* Pods */,
-				DF2006160D68DF08C910D92D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,14 +138,6 @@
 				735DFBF822E7E3C90002D695 /* Info.plist */,
 			);
 			path = TestingDangerAppUITests;
-			sourceTree = "<group>";
-		};
-		DF2006160D68DF08C910D92D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				295439BDA6ADCDA01F57DF8E /* Pods_TestingDangerApp.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
