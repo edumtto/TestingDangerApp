@@ -21,5 +21,5 @@ fail "You forgot to update your changelog file" if !declared_trivial && !release
 
 commit_lint.check
 
-cobertura.report = build/reports/coverage.xml
+cobertura.report = coverage.xml
 cobertura.show_coverage
