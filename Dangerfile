@@ -21,7 +21,7 @@ fail "You forgot to update your changelog file" if !declared_trivial && !release
 
 swiftlint.lint_files inline_mode: true
 
-rb clorox.check
+clorox.check
 
 xcov.report(
    scheme: 'EasyPeasy',
