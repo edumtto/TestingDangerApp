@@ -1,7 +1,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    lazy var label: UILabel = {
+    
+    lazy var label:UILabel = {
         let label = UILabel()
         label.text = "Olá mundo!"
         label.font = UIFont.systemFont(ofSize: 24)
@@ -9,7 +10,7 @@ class ViewController: UIViewController {
         return label
     }()
     
-    override func viewDidLoad() {
+    override func viewDidLoad(){
         super.viewDidLoad()
         view.backgroundColor = .yellow
         addComponents()
@@ -25,9 +26,11 @@ class ViewController: UIViewController {
             label.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
     }
+    
 }
