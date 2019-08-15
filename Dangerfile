@@ -23,8 +23,8 @@ swiftlint.lint_files inline_mode: true
 
 clorox.check
 
-xcov.report(
-   scheme: 'TestingDangerApp',
-   workspace: 'TestingDangerApp.xcworkspace',
-   minimum_coverage_percentage: 50
-)
+#xcov.report(
+#   scheme: 'TestingDangerApp',
+#   workspace: 'TestingDangerApp.xcworkspace',
+#   minimum_coverage_percentage: 50
+#)
