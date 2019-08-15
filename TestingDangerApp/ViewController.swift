@@ -3,7 +3,7 @@ import UIKit
 class ViewController: UIViewController {
     lazy var label: UILabel = {
         let label = UILabel()
-        label.text = "Olá mundo!"
+        label.text = "Olá mundo!!!"
         label.font = UIFont.systemFont(ofSize: 24)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
