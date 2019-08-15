@@ -1,3 +1,11 @@
+//
+//  AppDelegate.swift
+//  TestingDangerApp
+//
+//  Created by PicPay Eduardo on 7/23/19.
+//  Copyright © 2019 PicPay Eduardo. All rights reserved.
+//
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -26,8 +34,5 @@ class ViewController: UIViewController {
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-    }
+ 
 }

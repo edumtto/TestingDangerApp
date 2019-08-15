@@ -20,3 +20,12 @@ release_notes_updated = git.modified_files.include? "CHANGELOG.md"
 fail "You forgot to update your changelog file" if !declared_trivial && !release_notes_updated
 
 swiftlint.lint_files inline_mode: true
+
+rb clorox.check
+
+xcov.report(
+   scheme: 'EasyPeasy',
+   workspace: 'TestingDangerApp.xcworkspace',
+   exclude_targets: 'TestingDangerApp.app',
+   minimum_coverage_percentage: 50
+)
