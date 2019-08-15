@@ -20,3 +20,6 @@ release_notes_updated = git.modified_files.include? "CHANGELOG.md"
 fail "You forgot to update your changelog file" if !declared_trivial && !release_notes_updated
 
 commit_lint.check
+
+cobertura.report = build/reports/coverage.xml
+cobertura.show_coverage
